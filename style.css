@@ -1,0 +1,257 @@
+.homepage {
+    background: linear-gradient(30deg,beige, yellowgreen,#e59560 50%, #bacec1 50%, blueviolet, yellowgreen);
+    overflow: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    color: #1d3124;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index:9999;
+    background-color:#e59560;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 40%;
+    margin: 0 auto;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration:none;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+
+.nav-links a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: blueviolet;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.nav-links a:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.link1,
+.link2,
+.link3,
+.link4 {
+    flex-basis: 25%;
+    text-align: center;
+}
+.navbar li ul.dropdown {
+    display: none;
+    position: absolute;
+    left: 50;
+    background-color: #bacec1;
+    padding: 0;
+  }
+  .navbar li:hover ul.dropdown {
+    display: block;
+    box-shadow: #f56f5a;
+  }
+
+  .navbar li ul.dropdown li {
+    display: block;
+    margin-bottom: 5%;
+  }
+
+  .navbar li ul.dropdown li a {
+    padding: 0px;
+    color: black;
+  }
+
+.text {
+    margin-left: 20px;
+    padding: 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.image {
+    margin-right: 50px;
+    margin-top: -150px;
+}
+
+.image img {
+    max-width: 40%;
+    height: auto;
+    float: right;
+    border-radius: 50%;
+}
+
+.logo img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.logo img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.logo-text-black {
+    color: black;
+    font-style: normal;
+}
+
+.logo-text-orange {
+    color: blueviolet;
+    font-style: normal;
+}
+
+button {
+    width: 200px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #b0efeb, #fae6b1, #31525b);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button img {
+    width: 30px;
+    display: none;
+    border-radius: 50%;
+}
+
+button:hover img {
+    display: block;
+}
+
+button:hover {
+    width: 150px;
+    display: flex;
+}
+
+.menu-container {
+    text-align: center;
+}
+
+.menu-title {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.menu-title:hover {
+    text-decoration: none;
+}
+.card-groups {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%
+}
+
+.card-group {
+    display: flex;
+    margin: 0 20px; 
+    width: 100%;  
+}
+.card {
+    margin: 10px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 18px 0 yellowgreen;
+    overflow: hidden;
+    background-color:whitesmoke;
+    
+}
+  
+.card:hover {
+    background-color:#bacec1;
+    transform: scale(1.05);
+    box-shadow: 0 26px 26px 0 rgba(17, 55, 223, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.container {
+    padding: 2px 16px;
+    text-align: center;
+}
+p{
+    margin: 0;
+}
+.logo-text-black2 {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.logo-text-orange2 {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.container2 p {
+    width: 65%;
+    font-size: 14px;
+    line-height: 1.5;
+    order: 1;
+}
+body{
+    background-color: #f6f4e8;
+}
+.container2 img {
+    max-width: 50%;
+    border-radius: 50%;
+    order: 2; 
+}
+a:hover{
+    color: red;
+}
+footer{
+    text-align: center;
+    background-color: #e59560;
+}
