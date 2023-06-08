@@ -1,5 +1,5 @@
 .homepage {
-    background: linear-gradient(30deg,beige, yellowgreen,#e59560 50%, #bacec1 50%, blueviolet, yellowgreen);
+    background: linear-gradient(30deg,#e0e5e9, #f3d849,#e59560 50%, #bacec1 50%, #0a62d0, yellowgreen);
     overflow: hidden;
 }
 
@@ -14,7 +14,7 @@
     left: 0;
     width: 100%;
     z-index:9999;
-    background-color:#e59560;
+    background-color:#e0e5e9;
 }
 
 .logo {
@@ -51,7 +51,7 @@
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: blueviolet;
+    background-color: #0a62d0;
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.5s ease-in-out 0s;
@@ -73,7 +73,7 @@
     display: none;
     position: absolute;
     left: 50;
-    background-color: #bacec1;
+    background-color: #e0e5e9;
     padding: 0;
   }
   .navbar li:hover ul.dropdown {
@@ -88,7 +88,7 @@
 
   .navbar li ul.dropdown li a {
     padding: 0px;
-    color: black;
+    color:black;
   }
 
 .text {
@@ -131,7 +131,7 @@
 }
 
 .logo-text-orange {
-    color: blueviolet;
+    color: #0a62d0;
     font-style: normal;
 }
 
@@ -141,7 +141,7 @@ button {
     padding: 12px 10px;
     outline: none;
     color: #fff;
-    background: linear-gradient(to right, #b0efeb, #fae6b1, #31525b);
+    background: linear-gradient(to right, #b0efeb, #fae6b1, #0a62d0);
     border-radius: 6px;
     cursor: pointer;
     transition: 0.5s;
@@ -191,7 +191,7 @@ button:hover {
     width: 100%;
     border-radius: 20px;
     overflow: hidden;
-    background-color:#ded369;   
+    background-color:#f3d849;   
 }
   
 .card:hover {
@@ -220,7 +220,7 @@ p{
 }
 
 .logo-text-orange2 {
-    color: blueviolet;
+    color: #0a62d0;
     font-weight: bold;
     font-size: 24px;
 }
@@ -251,5 +251,5 @@ a:hover{
 }
 footer{
     text-align: center;
-    background-color: #e59560;
+    background-color: #e0e5e9;
 }
