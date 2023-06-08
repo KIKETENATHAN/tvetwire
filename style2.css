@@ -174,26 +174,26 @@ button:hover {
 .menu-title:hover {
     text-decoration: none;
 }
-.card-groups {
+.card-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 100%
-}
+  }
+  
+  .card {
+    background-color: #f3d849;
+    padding: 20px;
+    margin: 5px;
+    flex: 1 0 100px; /* Adjust the width as needed */
+  }
+  
+  /* Media query for smaller devices */
+  @media screen and (max-width: 767px) {
+    .card {
+      flex-basis: 100%;
+    }
+  }
+  
 
-.card-group {
-    display: flex;
-    margin: 0 20px; 
-    width: 100%;  
-}
-.card {
-    margin: 2px;
-    width: 100%;
-    border-radius: 20px;
-    overflow: hidden;
-    background-color:#f3d849; 
-    display: flex;  
-}
   
 .card:hover {
     background-color:white;
