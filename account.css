@@ -146,7 +146,9 @@
     width: 50%;
     margin: 0 3px;
   }
-  
+  body{
+    margin-left: 4% ;
+  }
   form {
     background-color: blanchedalmond;
     padding: 20px;
