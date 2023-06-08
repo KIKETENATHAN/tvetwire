@@ -195,7 +195,7 @@ button:hover {
 }
   
 .card:hover {
-    background-color:#bacec1;
+    background-color:white;
     transform: scale(1.05);
     box-shadow: 0 26px 26px 0 rgba(17, 55, 223, 0.2);
 }
