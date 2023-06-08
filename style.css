@@ -187,11 +187,12 @@ button:hover {
     width: 100%;  
 }
 .card {
-    margin: 10px;
+    margin: 2px;
     width: 100%;
     border-radius: 20px;
     overflow: hidden;
-    background-color:#f3d849;   
+    background-color:#f3d849; 
+    display: flex;  
 }
   
 .card:hover {
