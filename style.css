@@ -183,16 +183,24 @@ button:hover {
 
 .card-group {
     display: flex;
+    flex-wrap:wrap;
     margin: 0 20px; 
-    width: 100%;  
+    max: width 30%;  
 }
+/* Media query for smaller devices */
+@media screen and (max-width: 767px) {
+    .card {
+      flex-basis: 100%;
+    }
+  }
+  
 .card {
     margin: 2px;
     width: 100%;
     border-radius: 20px;
     overflow: hidden;
     background-color:#f3d849; 
-    display: flex;  
+    display: flex;   
 }
   
 .card:hover {
