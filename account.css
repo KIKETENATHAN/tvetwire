@@ -90,28 +90,27 @@
     padding: 0px;
     color:black;
   }
-/*drop down for papers*/
-  ul.dropdown {
-    display: none;
-    position: absolute;
-    left: 50;
-    background-color: #e0e5e9;
-    padding: 0;
-  }
-  :hover ul.dropdown {
-    display: inline-table;
-    box-shadow: #f56f5a;
-    transition: all 0.1s ease-in-out 0s;
-  }
-  ul.dropdown li {
-    display: block;
-    margin-bottom: 5%;
-  }
-  ul.dropdown li a {
-    padding: 0px;
-    color:blue;
-  }
+
  /*drop down for papers*/ 
+ .menu-trigger {
+  display: block;
+  cursor: pointer;
+}
+
+.toggle-checkbox {
+  display: none;
+}
+
+.menu {
+  display: none;
+  list-style: none;
+  padding: 0;
+}
+
+.toggle-checkbox:checked + .menu {
+  display: block;
+}
+/*drop down for papers*/
 .text {
     margin-left: 20px;
     padding: 50px;
