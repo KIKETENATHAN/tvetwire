@@ -92,8 +92,8 @@
   }
 
  /*drop down for papers*/ 
- .menu-trigger {
-  display: block;
+ .dropdown-trigger {
+  display:inline-table;
   cursor: pointer;
 }
 
