@@ -69,28 +69,49 @@
     flex-basis: 25%;
     text-align: center;
 }
-.navbar li ul.dropdown {
+  .navbar li ul.dropdown {
     display: none;
     position: absolute;
     left: 50;
-    background-color: #f0f0f0;
+    background-color: #e0e5e9;
     padding: 0;
   }
-
   .navbar li:hover ul.dropdown {
     display: block;
+    box-shadow: #f56f5a;
   }
 
   .navbar li ul.dropdown li {
     display: block;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
 
   .navbar li ul.dropdown li a {
-    padding: 5px;
-    color: black;
+    padding: 0px;
+    color:black;
   }
-
+/*drop down for papers*/
+  ul.dropdown {
+    display: none;
+    position: absolute;
+    left: 50;
+    background-color: #e0e5e9;
+    padding: 0;
+  }
+  :hover ul.dropdown {
+    display: inline-table;
+    box-shadow: #f56f5a;
+    transition: all 0.1s ease-in-out 0s;
+  }
+  ul.dropdown li {
+    display: block;
+    margin-bottom: 5%;
+  }
+  ul.dropdown li a {
+    padding: 0px;
+    color:blue;
+  }
+ /*drop down for papers*/ 
 .text {
     margin-left: 20px;
     padding: 50px;
