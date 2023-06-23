@@ -121,6 +121,7 @@
 .image {
     margin-right: 20px;
     margin-top: -150px;
+  background-color: beige;
 }
 
 .image img {
@@ -168,6 +169,7 @@
   }
   body{
     margin-left: 4% ;
+    background-color: beige;
   }
   form {
     background-color: blanchedalmond;
