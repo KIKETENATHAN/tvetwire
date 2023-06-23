@@ -169,7 +169,7 @@
   }
   body{
     margin-left: 4% ;
-    background-color: beige;
+    background-color:white;
   }
   form {
     background-color: blanchedalmond;
@@ -207,6 +207,9 @@
   }
   button[type="submit"]:hover {
     background-color: #343434;
+  }
+  label:hover{
+    color: blue;
   }
   footer{
     text-align: center;
