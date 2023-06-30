@@ -61,8 +61,6 @@
     visibility: visible;
     transform: scaleX(1);
 }
-
-
   .navbar li ul.dropdown {
     display: none;
     position: absolute;
@@ -74,33 +72,27 @@
     display: block;
     box-shadow: #f56f5a;
   }
-
   .navbar li ul.dropdown li {
     display: block;
     margin-bottom: 5%;
   }
-
   .navbar li ul.dropdown li a {
     padding: 0px;
     color:black;
   }
-
  /*drop down for papers*/ 
  .dropdown-trigger {
   display:inline-table;
   cursor: pointer;
 }
-
 .toggle-checkbox {
   display: none;
 }
-
 .menu {
   display:none;
   list-style: none;
   padding: 0;
 }
-
 .toggle-checkbox:checked + .menu {
   display: block;
 }
@@ -138,17 +130,14 @@
     border-radius: 50%;
     object-fit: cover;
 }
-
 .logo-text-black {
     color: black;
     font-style: normal;
 }
-
 .logo-text-orange {
     color: #0a62d0;
     font-style: normal;
 }
-
 .container {
     display:block;
     justify-content: center;
@@ -156,13 +145,12 @@
    width: 100%;
    margin-left: 25%;
   }
-  
   .form-container {
     width: 50%;
     margin: 0 3px;
   }
   body{
-    margin-left: 4% ;
+    margin-left: 2% ;
     background-color:white;
     text-align: left;
   }
