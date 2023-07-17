@@ -26,7 +26,10 @@
 .nav-links {
     flex-basis: 25%;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 
 .nav-links {
     display: flex;
