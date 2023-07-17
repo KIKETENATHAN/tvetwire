@@ -26,8 +26,7 @@
 .nav-links {
     flex-basis: 25%;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
+   
 }
 
 
@@ -37,6 +36,8 @@
     align-items: center;
     flex-basis: 40%;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .nav-links a {
