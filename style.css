@@ -203,6 +203,7 @@ button:hover {
     overflow: hidden;
     background-color:#f3d849; 
     display: flex;   
+    flex-wrap: wrap;
 }
   
 .card:hover {
