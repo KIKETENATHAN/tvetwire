@@ -43,7 +43,7 @@
 .nav-links a {
     color: black;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     position: relative;
 }
@@ -84,7 +84,7 @@
     padding: 0px;
     color:black;
   }
- /*drop down for papers*/ 
+ /*drop down for papers start*/ 
  .dropdown-trigger {
   display:inline-table;
   cursor: pointer;
@@ -100,7 +100,7 @@
 .toggle-checkbox:checked + .menu {
   display: block;
 }
-/*drop down for papers*/
+/*drop down for papers end*/
 .text {
     margin-left: 20px;
     padding: 50px;
