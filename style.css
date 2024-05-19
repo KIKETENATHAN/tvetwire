@@ -207,6 +207,7 @@ button:hover {
 .menu-title:hover {
     text-decoration: none;
 }
+.cards
 .card-groups {
     display: flex;
     flex-wrap: wrap;
@@ -220,9 +221,9 @@ button:hover {
     margin: 0 20px; 
     max-width:30% 
 }
-/* Media query for smaller devices */
+/*Media query for smaller devices */
 @media screen and (max-width: 767px) {
-    .card {
+.card {
       flex-basis: 100%;
     }
   }
