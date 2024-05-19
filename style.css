@@ -361,6 +361,14 @@ a:hover{
             to {opacity: 1}
         }
 /*slide show end*/
+/* Additional styles for the floating effect */
+.floating-button {
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    z-index: 1000;
+  }
+  /*floating effect enr*/
 /*table start*/
 body {
     font-family: Arial, sans-serif; 
