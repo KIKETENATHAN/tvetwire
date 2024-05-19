@@ -174,14 +174,19 @@ button:hover {
 }
 
 .flex-item {
-    background-color: #fff;
-    border: 1px solid #085ce3;
+    background-color: #f3d849;
+    border: 1px solid;
+    color: #0a62d0;
     padding: 1em;
     flex: 1;
     margin: 0 1em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+.flex-item:hover {
+    background-color:white;
+    transform: scale(1.05);
+    box-shadow: 0 26px 26px 0 rgba(17, 55, 223, 0.2);
+}
 .flex-item:first-child {
     margin-left: 0;
 }
