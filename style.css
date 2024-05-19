@@ -139,19 +139,19 @@
 
 button {
     width: 200px;
+    height: 50px;
     border: 0;
     padding: 12px 10px;
     outline: none;
     color: #fff;
-    background: linear-gradient(to right, #b0efeb, #fae6b1, #0a62d0);
     border-radius: 6px;
     cursor: pointer;
     transition: 0.5s;
 }
 
 button img {
-    width: 30px;
-    display: none;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 
@@ -160,7 +160,7 @@ button:hover img {
 }
 
 button:hover {
-    width: 150px;
+    width: 200px;
     display: flex;
 }
 /*column start*/
@@ -226,7 +226,7 @@ button:hover {
       flex-basis: 100%;
     }
   }
-  
+
 .card {
     margin: 2px;
     width: 100%;
@@ -248,6 +248,8 @@ button:hover {
     height: auto;
     border-radius: 10px 10px 0 0;
 }
+
+
 .container {
     padding: 2px 16px;
     text-align: center;
