@@ -369,6 +369,14 @@ a:hover{
     z-index: 1000;
   }
   /*floating effect enr*/
+
+  /* Additional styles for the floating effect */
+  .floating-large-card {
+    position: fixed;
+    left: 10px;
+    top: 20px;
+    z-index: 1000;
+  }
 /*table start*/
 body {
     font-family: Arial, sans-serif; 
