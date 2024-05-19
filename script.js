@@ -29,9 +29,5 @@ function showSlides(n) {
 }
 
 /*slide show for cards*/
-window.addEventListener('scroll', function() {
-    const largeCard = document.querySelector('.floating-large-card');
-    const offset = window.pageYOffset;
-    largeCard.style.top = `${20 + offset}px`;
-  });
+
 /*slide show for cards end*/
