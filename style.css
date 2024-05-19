@@ -163,6 +163,33 @@ button:hover {
     width: 150px;
     display: flex;
 }
+/*column start*/
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-item {
+    background-color: #fff;
+    border: 1px solid #085ce3;
+    padding: 1em;
+    flex: 1;
+    margin: 0 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex-item:first-child {
+    margin-left: 0;
+}
+
+.flex-item:last-child {
+    margin-right: 0;
+}
+/*column end*/
 
 .menu-container {
     text-align: center;
