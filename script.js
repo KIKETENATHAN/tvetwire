@@ -28,6 +28,3 @@ function showSlides(n) {
     dots[slideIndex-1].className += " active";
 }
 
-/*slide show for cards*/
-
-/*slide show for cards end*/
