@@ -177,6 +177,13 @@ button:hover {
 .menu-title:hover {
     text-decoration: none;
 }
+.card {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  .card.visible {
+    opacity: 1;
+  }
 .card-container {
     display: flex;
     flex-wrap: wrap;
