@@ -365,7 +365,7 @@ a:hover{
 .floating-button {
     position: fixed;
     right: 10px;
-    top: 70px;
+    bottom: 20px;
     z-index: 1000;
   }
   /*floating effect enr*/
