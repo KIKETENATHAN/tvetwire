@@ -67,25 +67,25 @@
               <label for="toggle -16" class="dropdown-trigger"><b>Click to get notes for units</b><t style="color: orange;"><strong>HERE</strong></t>  &#9662;</label>
               <input type="checkbox" id="toggle -16" class="toggle-checkbox">
               <ul class="menu">
-                <li><a href="pastpapers/pgt/ROCK FLUIDS.pdf" view target="_blank">Education Pyschology</a></li>
-                <li><a href="#">Education Administration</a></li>
-                <li><a href="#">Flexible and blended Learning</a></li>
-                <li><a href="#">Research Methods</a></li>
-                <li><a href="#">Education Research and Statistics</a></li>
-                <li><a href="#">Training Methodologies</a></li>
-                <li><a href="#">Education Technology</a></li>
-                <li><a href="#">Information Literacy</a></li>
-                <li><a href="#">Oral Communication</a></li>
-                <li><a href="#">Physical Education</a></li>
-                <li><a href="#">Environmental Education</a></li>
-                <li><a href="#">Entrepreneurship Education</a></li>
-                <li><a href="#">Sociology of Education</a></li>
-                <li><a href="#">Curriculumn studies</a></li>
-                <li><a href="#">Trends and Issues in Education</a></li>
-                <li><a href="#">Employability and Social Cohesion</a></li>
-                <li><a href="#">Guidance and Counselling</a></li>
-                <li><a href="#">Competency Based Assessment</a></li>
-                <li><a href="#">Special Methods of Training</a></li>
+                <li><a href="#" onclick="selectNote('ROCK FLUIDS.pdf')">Education Psychology</a></li>
+                <li><a href="#" onclick="selectNote('Education Administration.pdf')">Education Administration</a></li>
+                <li><a href="#" onclick="selectNote('Flexible and blended Learning.pdf')">Flexible and blended Learning</a></li>
+                <li><a href="#" onclick="selectNote('Research Methods.pdf')">Research Methods</a></li>
+                <li><a href="#" onclick="selectNote('Education Research and Statistics.pdf')">Education Research and Statistics</a></li>
+                <li><a href="#" onclick="selectNote('Training Methodologies.pdf')">Training Methodologies</a></li>
+                <li><a href="#" onclick="selectNote('Education Technology.pdf')">Education Technology</a></li>
+                <li><a href="#" onclick="selectNote('Information Literacy.pdf')">Information Literacy</a></li>
+                <li><a href="#" onclick="selectNote('Oral Communication.pdf')">Oral Communication</a></li>
+                <li><a href="#" onclick="selectNote('Physical Education.pdf')">Physical Education</a></li>
+                <li><a href="#" onclick="selectNote('Environmental Education.pdf')">Environmental Education</a></li>
+                <li><a href="#" onclick="selectNote('Entrepreneurship Education.pdf')">Entrepreneurship Education</a></li>
+                <li><a href="#" onclick="selectNote('Sociology of Education.pdf')">Sociology of Education</a></li>
+                <li><a href="#" onclick="selectNote('Curriculumn studies.pdf')">Curriculumn studies</a></li>
+                <li><a href="#" onclick="selectNote('Trends and Issues in Education.pdf')">Trends and Issues in Education</a></li>
+                <li><a href="#" onclick="selectNote('Employability and Social Cohesion.pdf')">Employability and Social Cohesion</a></li>
+                <li><a href="#" onclick="selectNote('Guidance and Counselling.pdf')">Guidance and Counselling</a></li>
+                <li><a href="#" onclick="selectNote('Competency Based Assessment.pdf')">Competency Based Assessment</a></li>
+                <li><a href="#" onclick="selectNote('Special Methods of Training.pdf')">Special Methods of Training</a></li>
               </ul>
               </div>
         </div>
@@ -730,7 +730,12 @@
       });
     });
   </script>
-
+   <script>
+    function selectNote(noteFile) {
+      // Redirect to the payment page with the selected note as a query parameter
+      window.location.href = 'payment.html?note=' + encodeURIComponent(noteFile);
+    }
+  </script>
   <script src="cards.js"></script>
 </body>
 <footer>

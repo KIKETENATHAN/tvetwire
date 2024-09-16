@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TvetPrime - Notes</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .btn-gold {
+            background-color: #FFD700;
+            color: #000;
+        }
+
+        .btn-gold:hover {
+            background-color: #17e64f;
+            color: #000;
+        }
+
+        .card-title {
+            color: #007bff; /* Bootstrap Blue */
+        }
+
+        .form-control {
+            margin-bottom: 10px;
+        }
+
+        .centered-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+<div class="centered-container">
+    <div class="card shadow-lg p-4 max-w-md">
+        <h1 class="card-title text-center text-blue-500 text-2xl font-bold mb-4">Confirm Your Notes</h1>
+
+        <!-- Notes Information -->
+        <div class="form-group">
+            <label for="chosen-note" class="text-blue-500">Chosen Note:</label>
+            <input type="text" id="chosen-note" class="form-control border border-gray-300 rounded p-2" readonly>
+        </div>
+
+        <!-- Contact Method Dropdown -->
+        <div class="form-group">
+            <label for="contact-method" class="text-blue-500">Receive the notes via:</label>
+            <select id="contact-method" class="form-control border border-gray-300 rounded p-2" onchange="showContactField()">
+                <option value="whatsapp" style="color: green;">WhatsApp</option>
+                <option value="email" style="color: rgb(21, 133, 239);">Email</option>
+            </select>
+        </div>
+
+        <!-- Input for WhatsApp/Email -->
+        <div class="form-group">
+            <input type="text" id="contact-input" class="form-control border border-gray-300 rounded p-2" placeholder="Enter your contact info">
+        </div>
+
+        <!-- Payment Button -->
+        <div class="text-center">
+            <button id="pay-button" class="btn btn-gold btn-lg mt-2" onclick="startPayment()">Proceed to Payment</button>
+        </div>
+
+        <!-- Payment Status -->
+        <div id="payment-status" class="text-center text-red-500 mt-3"></div>
+    </div>
+</div>
+
+<!-- Bootstrap JS (optional for modal, etc.) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    // Function to get query parameter
+    function getQueryParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(param);
+    }
+
+    // Show the selected note
+    window.onload = function() {
+        const selectedNote = getQueryParam('note');
+        
+        // Log the selected note for debugging purposes
+        console.log('Selected Note:', selectedNote);
+
+        if (selectedNote) {
+            // If the note is selected from the query, display it in the input field
+            document.getElementById('chosen-note').value = selectedNote;
+        } else {
+            // If no note is selected, set a default error message
+            document.getElementById('chosen-note').value = 'No notes selected. Please go back and choose a note.';
+            document.getElementById('pay-button').disabled = true; // Disable the payment button if no note is selected
+        }
+    };
+
+    function showContactField() {
+        const method = document.getElementById('contact-method').value;
+        const inputField = document.getElementById('contact-input');
+        if (method === 'whatsapp') {
+            inputField.placeholder = 'Enter WhatsApp Number';
+        } else {
+            inputField.placeholder = 'Enter Email Address';
+        }
+    }
+
+    function startPayment() {
+        const note = document.getElementById('chosen-note').value;
+        const contact = document.getElementById('contact-input').value;
+        const contactMethod = document.getElementById('contact-method').value;
+
+        // Check if a valid note is selected before proceeding with payment
+        if (note === 'No notes selected. Please go back and choose a note.') {
+            document.getElementById('payment-status').innerHTML = "Error: No note selected.";
+            return;
+        }
+
+        // Call the back-end to initiate payment and STK Push
+        fetch('process_payment.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                note: note,
+                contact: contact,
+                contactMethod: contactMethod
+            }),
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === 'success') {
+                document.getElementById('payment-status').innerHTML = "Payment successful! Notes will be sent.";
+                document.getElementById('payment-status').classList.remove('text-red-500');
+                document.getElementById('payment-status').classList.add('text-green-500');
+            } else {
+                document.getElementById('payment-status').innerHTML = "Payment failed. Please try again.";
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            document.getElementById('payment-status').innerHTML = "Error processing payment.";
+        });
+    }
+</script>
+
+</body>
+</html>
+
+
+
