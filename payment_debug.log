@@ -1,0 +1,489 @@
+[2024-09-16 21:46:24] Database connection successful
+[2024-09-16 21:46:24] Received data: {"note":"ROCK FLUIDS.pdf","contact":"254708579885","contactMethod":"whatsapp"}
+[2024-09-16 21:46:24] Formatted phone number: 254708579885
+[2024-09-16 21:46:24] Starting STK Push for phone: 254708579885, amount: 1
+[2024-09-16 21:46:35] Access token response status: 200
+[2024-09-16 21:46:35] Access token obtained successfully
+[2024-09-16 21:46:35] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE2MjE0NjM1","Timestamp":"20240916214635","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"254708579885","PartyB":"174379","PhoneNumber":"254708579885","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-16 21:46:44] STK Push response: {"MerchantRequestID":"8ed5-4489-a67f-881890b925f2267490","CheckoutRequestID":"ws_CO_16092024224640317708579885","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[2024-09-16 21:46:44] STK Push response: {"status":"success","message":"STK Push successful"}
+[2024-09-16 21:48:15] Database connection successful
+[2024-09-16 21:48:15] Received data: {"note":"ROCK FLUIDS.pdf","contact":"kiketenathan@gmail.com","contactMethod":"email"}
+[2024-09-16 21:48:15] Formatted phone number: 
+[2024-09-16 21:48:15] Starting STK Push for phone: , amount: 1
+[2024-09-16 21:48:16] Access token response status: 200
+[2024-09-16 21:48:16] Access token obtained successfully
+[2024-09-16 21:48:16] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE2MjE0ODE2","Timestamp":"20240916214816","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"","PartyB":"174379","PhoneNumber":"","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-16 21:48:17] STK Push response: {"requestId":"2e49-42fe-9d40-bf4b36f202bb83987","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid PhoneNumber"}
+[2024-09-16 21:48:17] STK Push response: {"status":"failed","message":"STK Push failed: Bad Request - Invalid PhoneNumber"}
+[2024-09-16 21:48:17] Payment failed: STK Push failed: Bad Request - Invalid PhoneNumber
+[2024-09-16 22:00:06] Database connection successful
+[2024-09-16 22:00:06] Received data: {"note":"ROCK FLUIDS.pdf","contact":"ooko.george@uonbi.ac.ke","contactMethod":"email"}
+[2024-09-16 22:00:06] Formatted phone number: 
+[2024-09-16 22:00:06] Starting STK Push for phone: , amount: 1
+[2024-09-16 22:00:09] Access token response status: 200
+[2024-09-16 22:00:09] Access token obtained successfully
+[2024-09-16 22:00:09] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE2MjIwMDA5","Timestamp":"20240916220009","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"","PartyB":"174379","PhoneNumber":"","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-16 22:00:10] STK Push response: {"requestId":"f1e2-4b95-a71d-b30d3cdbb7a71712131","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid PhoneNumber"}
+[2024-09-16 22:00:10] STK Push response: {"status":"failed","message":"STK Push failed: Bad Request - Invalid PhoneNumber"}
+[2024-09-16 22:00:10] Payment failed: STK Push failed: Bad Request - Invalid PhoneNumber
+[2024-09-16 22:01:27] Database connection successful
+[2024-09-16 22:01:27] Received data: {"note":"ROCK FLUIDS.pdf","contact":"254708579885","contactMethod":"whatsapp"}
+[2024-09-16 22:01:27] Formatted phone number: 254708579885
+[2024-09-16 22:01:27] Starting STK Push for phone: 254708579885, amount: 1
+[2024-09-16 22:01:39] Database connection successful
+[2024-09-16 22:01:39] Received data: {"note":"ROCK FLUIDS.pdf","contact":"254708579885","contactMethod":"whatsapp"}
+[2024-09-16 22:01:39] Formatted phone number: 254708579885
+[2024-09-16 22:01:39] Starting STK Push for phone: 254708579885, amount: 1
+[2024-09-16 22:01:52] Database connection successful
+[2024-09-16 22:01:52] Received data: {"note":"ROCK FLUIDS.pdf","contact":"254708579885","contactMethod":"whatsapp"}
+[2024-09-16 22:01:52] Formatted phone number: 254708579885
+[2024-09-16 22:01:52] Starting STK Push for phone: 254708579885, amount: 1
+[2024-09-16 22:01:54] Access token response status: 200
+[2024-09-16 22:01:54] Access token obtained successfully
+[2024-09-16 22:01:54] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE2MjIwMTU0","Timestamp":"20240916220154","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"254708579885","PartyB":"174379","PhoneNumber":"254708579885","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-16 22:01:58] Access token response status: 200
+[2024-09-16 22:01:58] Access token obtained successfully
+[2024-09-16 22:01:58] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE2MjIwMTU4","Timestamp":"20240916220158","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"254708579885","PartyB":"174379","PhoneNumber":"254708579885","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-16 22:01:59] STK Push response: {"MerchantRequestID":"8ed5-4489-a67f-881890b925f2267687","CheckoutRequestID":"ws_CO_16092024230213630708579885","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[2024-09-16 22:01:59] STK Push response: {"status":"success","message":"STK Push successful"}
+[2024-09-16 22:02:06] STK Push response: {"requestId":"7071-4170-a0e4-8345632bad442422635","errorCode":"500.001.1001","errorMessage":"Unable to lock subscriber, a transaction is already in process for the current subscriber"}
+[2024-09-16 22:02:06] STK Push response: {"status":"failed","message":"STK Push failed: Unable to lock subscriber, a transaction is already in process for the current subscriber"}
+[2024-09-16 22:02:06] Payment failed: STK Push failed: Unable to lock subscriber, a transaction is already in process for the current subscriber
+[2024-09-16 22:16:29] Database connection successful
+[2024-09-16 22:16:29] Received data: {"note":"ROCK FLUIDS.pdf","contact":"254708579885","contactMethod":"whatsapp","phoneNumber":""}
+[2024-09-16 22:16:29] Formatted phone number: 254708579885
+[2024-09-16 22:16:29] Starting STK Push for phone: 254708579885, amount: 1
+[2024-09-16 22:16:30] Access token response status: 200
+[2024-09-16 22:16:30] Access token obtained successfully
+[2024-09-16 22:16:30] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE2MjIxNjMw","Timestamp":"20240916221630","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"254708579885","PartyB":"174379","PhoneNumber":"254708579885","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-16 22:16:31] STK Push response: {"MerchantRequestID":"8ed5-4489-a67f-881890b925f2267841","CheckoutRequestID":"ws_CO_16092024231631695708579885","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[2024-09-16 22:16:31] STK Push response: {"status":"success","message":"STK Push successful"}
+[2024-09-16 22:17:04] Database connection successful
+[2024-09-16 22:17:04] Received data: {"note":"ROCK FLUIDS.pdf","contact":"kiketenathan@gmail.com","contactMethod":"email","phoneNumber":"254708579885"}
+[2024-09-16 22:17:04] Formatted phone number: 
+[2024-09-16 22:17:04] Starting STK Push for phone: , amount: 1
+[2024-09-16 22:17:05] Access token response status: 200
+[2024-09-16 22:17:05] Access token obtained successfully
+[2024-09-16 22:17:05] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE2MjIxNzA1","Timestamp":"20240916221705","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"","PartyB":"174379","PhoneNumber":"","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-16 22:17:06] STK Push response: {"requestId":"2e49-42fe-9d40-bf4b36f202bb84329","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid PhoneNumber"}
+[2024-09-16 22:17:06] STK Push response: {"status":"failed","message":"STK Push failed: Bad Request - Invalid PhoneNumber"}
+[2024-09-16 22:17:06] Payment failed: STK Push failed: Bad Request - Invalid PhoneNumber
+[2024-09-16 22:17:18] Database connection successful
+[2024-09-16 22:17:18] Received data: {"note":"ROCK FLUIDS.pdf","contact":"kiketenathan@gmail.com","contactMethod":"email","phoneNumber":"254708579885"}
+[2024-09-16 22:17:18] Formatted phone number: 
+[2024-09-16 22:17:18] Starting STK Push for phone: , amount: 1
+[2024-09-16 22:17:19] Access token response status: 200
+[2024-09-16 22:17:19] Access token obtained successfully
+[2024-09-16 22:17:19] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE2MjIxNzE5","Timestamp":"20240916221719","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"","PartyB":"174379","PhoneNumber":"","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-16 22:17:20] STK Push response: {"requestId":"3124-481d-b706-10bdd6fbc8e2267217","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid PhoneNumber"}
+[2024-09-16 22:17:20] STK Push response: {"status":"failed","message":"STK Push failed: Bad Request - Invalid PhoneNumber"}
+[2024-09-16 22:17:20] Payment failed: STK Push failed: Bad Request - Invalid PhoneNumber
+[2024-09-16 22:17:23] Database connection successful
+[2024-09-16 22:17:23] Received data: {"note":"ROCK FLUIDS.pdf","contact":"kiketenathan@gmail.com","contactMethod":"email","phoneNumber":"254708579885"}
+[2024-09-16 22:17:23] Formatted phone number: 
+[2024-09-16 22:17:23] Starting STK Push for phone: , amount: 1
+[2024-09-16 22:17:24] Access token response status: 200
+[2024-09-16 22:17:24] Access token obtained successfully
+[2024-09-16 22:17:24] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE2MjIxNzI0","Timestamp":"20240916221724","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"","PartyB":"174379","PhoneNumber":"","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-16 22:17:24] STK Push response: {"requestId":"3124-481d-b706-10bdd6fbc8e2267219","errorCode":"500.003.02","errorMessage":"System is busy. Please try again in few minutes."}
+[2024-09-16 22:17:24] STK Push response: {"status":"failed","message":"STK Push failed: System is busy. Please try again in few minutes."}
+[2024-09-16 22:17:24] Payment failed: STK Push failed: System is busy. Please try again in few minutes.
+[2024-09-16 22:22:40] Database connection successful
+[2024-09-16 22:22:40] Received data: {"note":"ROCK FLUIDS.pdf","contact":"kiketenathan@gmail.com","contactMethod":"email","phoneNumber":"254708579885"}
+[2024-09-16 22:22:40] Formatted phone number: 
+[2024-09-16 22:22:40] Starting STK Push for phone: , amount: 1
+[2024-09-16 22:22:41] Access token response status: 200
+[2024-09-16 22:22:41] Access token obtained successfully
+[2024-09-16 22:22:41] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE2MjIyMjQx","Timestamp":"20240916222241","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"","PartyB":"174379","PhoneNumber":"","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-16 22:22:42] STK Push response: {"requestId":"1c5b-4ba8-815c-ac45c57a3db02427816","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid PhoneNumber"}
+[2024-09-16 22:22:42] STK Push response: {"status":"failed","message":"STK Push failed: Bad Request - Invalid PhoneNumber"}
+[2024-09-16 22:22:42] Payment failed: STK Push failed: Bad Request - Invalid PhoneNumber
+[2024-09-16 22:24:30] Database connection successful
+[2024-09-16 22:24:30] Received data: {"note":"ROCK FLUIDS.pdf","contact":"254708579885","contactMethod":"whatsapp","phoneNumber":"254708579885"}
+[2024-09-16 22:24:30] Formatted phone number: 254708579885
+[2024-09-16 22:24:30] Starting STK Push for phone: 254708579885, amount: 1
+[2024-09-16 22:24:32] Access token response status: 200
+[2024-09-16 22:24:32] Access token obtained successfully
+[2024-09-16 22:24:32] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE2MjIyNDMy","Timestamp":"20240916222432","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"254708579885","PartyB":"174379","PhoneNumber":"254708579885","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-16 22:24:33] STK Push response: {"MerchantRequestID":"2e49-42fe-9d40-bf4b36f202bb84405","CheckoutRequestID":"ws_CO_16092024232433067708579885","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[2024-09-16 22:24:33] STK Push response: {"status":"success","message":"STK Push successful"}
+[2024-09-16 22:24:54] Database connection successful
+[2024-09-16 22:24:54] Received data: {"note":"ROCK FLUIDS.pdf","contact":"kiketenathan@gmail.com","contactMethod":"email","phoneNumber":"254708579885"}
+[2024-09-16 22:24:54] Formatted phone number: 
+[2024-09-16 22:24:54] Starting STK Push for phone: , amount: 1
+[2024-09-16 22:24:54] Access token response status: 200
+[2024-09-16 22:24:54] Access token obtained successfully
+[2024-09-16 22:24:54] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE2MjIyNDU0","Timestamp":"20240916222454","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"","PartyB":"174379","PhoneNumber":"","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-16 22:24:55] STK Push response: {"requestId":"8ed5-4489-a67f-881890b925f2267929","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid PhoneNumber"}
+[2024-09-16 22:24:55] STK Push response: {"status":"failed","message":"STK Push failed: Bad Request - Invalid PhoneNumber"}
+[2024-09-16 22:24:55] Payment failed: STK Push failed: Bad Request - Invalid PhoneNumber
+[2024-09-17 05:14:40] Database connection successful
+[2024-09-17 05:14:40] Received data: {"note":"Physical Education.pdf","contact":"254708579885","contactMethod":"whatsapp","phoneNumber":""}
+[2024-09-17 05:14:40] Formatted phone number: 254708579885
+[2024-09-17 05:14:40] Starting STK Push for phone: 254708579885, amount: 1
+[2024-09-17 05:14:41] Access token response status: 200
+[2024-09-17 05:14:41] Access token obtained successfully
+[2024-09-17 05:14:41] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE3MDUxNDQx","Timestamp":"20240917051441","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"254708579885","PartyB":"174379","PhoneNumber":"254708579885","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-17 05:14:42] STK Push response: {"MerchantRequestID":"7071-4170-a0e4-8345632bad442431050","CheckoutRequestID":"ws_CO_17092024061458029708579885","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[2024-09-17 05:14:42] STK Push response: {"status":"success","message":"STK Push successful"}
+[2024-09-17 05:15:21] Database connection successful
+[2024-09-17 05:15:21] Received data: {"note":"ROCK FLUIDS.pdf","contact":"kiketenathan@gmail.com","contactMethod":"email","phoneNumber":"254708579885"}
+[2024-09-17 05:15:21] Formatted phone number: 
+[2024-09-17 05:15:21] Starting STK Push for phone: , amount: 1
+[2024-09-17 05:15:22] Access token response status: 200
+[2024-09-17 05:15:22] Access token obtained successfully
+[2024-09-17 05:15:22] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE3MDUxNTIy","Timestamp":"20240917051522","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"","PartyB":"174379","PhoneNumber":"","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-17 05:15:23] STK Push response: {"requestId":"1c5b-4ba8-815c-ac45c57a3db02435964","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid PhoneNumber"}
+[2024-09-17 05:15:23] STK Push response: {"status":"failed","message":"STK Push failed: Bad Request - Invalid PhoneNumber"}
+[2024-09-17 05:15:23] Payment failed: STK Push failed: Bad Request - Invalid PhoneNumber
+[2024-09-17 05:30:48] Database connection successful
+[2024-09-17 05:30:48] Received data: {"note":"Education Administration.pdf","contact":"254708579885","contactMethod":"whatsapp","phoneNumber":""}
+[2024-09-17 05:30:48] Formatted phone number: 254708579885
+[2024-09-17 05:30:48] Starting STK Push for phone: 254708579885, amount: 1
+[2024-09-17 05:30:49] Access token response status: 200
+[2024-09-17 05:30:49] Access token obtained successfully
+[2024-09-17 05:30:49] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE3MDUzMDQ5","Timestamp":"20240917053049","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"254708579885","PartyB":"174379","PhoneNumber":"254708579885","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-17 05:30:50] STK Push response: {"MerchantRequestID":"f1e2-4b95-a71d-b30d3cdbb7a71721002","CheckoutRequestID":"ws_CO_17092024063049720708579885","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[2024-09-17 05:30:50] STK Push response: {"status":"success","message":"STK Push successful"}
+[2024-09-17 05:44:03] Database connection successful
+[2024-09-17 05:44:03] Received data: {"note":"Education Administration.pdf","contact":"kiketenathan@gmail.com","contactMethod":"email","phoneNumber":"254708579885"}
+[2024-09-17 05:44:03] Formatted phone number: 
+[2024-09-17 05:44:03] Starting STK Push for phone: , amount: 1
+[2024-09-17 05:44:04] Access token response status: 200
+[2024-09-17 05:44:04] Access token obtained successfully
+[2024-09-17 05:44:04] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE3MDU0NDA0","Timestamp":"20240917054404","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"","PartyB":"174379","PhoneNumber":"","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-17 05:44:05] STK Push response: {"requestId":"7071-4170-a0e4-8345632bad442431536","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid PhoneNumber"}
+[2024-09-17 05:44:05] STK Push response: {"status":"failed","message":"STK Push failed: Bad Request - Invalid PhoneNumber"}
+[2024-09-17 05:44:05] Payment failed: STK Push failed: Bad Request - Invalid PhoneNumber
+[2024-09-17 05:44:05] Received callback: {"note":"Education Administration.pdf","contact":"kiketenathan@gmail.com","contactMethod":"email","phoneNumber":"254708579885"}
+[2024-09-17 05:44:55] Database connection successful
+[2024-09-17 05:44:55] Received data: {"note":"Education Administration.pdf","contact":"254708579885","contactMethod":"whatsapp","phoneNumber":"254708579885"}
+[2024-09-17 05:44:55] Formatted phone number: 254708579885
+[2024-09-17 05:44:55] Starting STK Push for phone: 254708579885, amount: 1
+[2024-09-17 05:44:57] Access token response status: 200
+[2024-09-17 05:44:57] Access token obtained successfully
+[2024-09-17 05:44:57] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE3MDU0NDU3","Timestamp":"20240917054457","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"254708579885","PartyB":"174379","PhoneNumber":"254708579885","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-17 05:44:58] STK Push response: {"MerchantRequestID":"1c5b-4ba8-815c-ac45c57a3db02436444","CheckoutRequestID":"ws_CO_17092024064513321708579885","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[2024-09-17 05:44:58] STK Push response: {"status":"success","message":"STK Push successful"}
+[2024-09-17 05:48:58] Database connection successful
+[2024-09-17 05:48:58] Received data: {"note":"ROCK FLUIDS.pdf","contact":"kiketenathan@gmail.com","contactMethod":"email","phoneNumber":"254708579885"}
+[2024-09-17 05:48:58] Formatted phone number: 
+[2024-09-17 05:48:58] Starting STK Push for phone: , amount: 1
+[2024-09-17 05:48:59] Access token response status: 200
+[2024-09-17 05:48:59] Access token obtained successfully
+[2024-09-17 05:48:59] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE3MDU0ODU5","Timestamp":"20240917054859","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"","PartyB":"174379","PhoneNumber":"","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-17 05:49:00] STK Push response: {"requestId":"2e49-42fe-9d40-bf4b36f202bb90319","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid PhoneNumber"}
+[2024-09-17 05:49:00] STK Push response: {"status":"failed","message":"STK Push failed: Bad Request - Invalid PhoneNumber"}
+[2024-09-17 05:49:00] Payment failed: STK Push failed: Bad Request - Invalid PhoneNumber
+[2024-09-17 05:49:00] Received callback: {"note":"ROCK FLUIDS.pdf","contact":"kiketenathan@gmail.com","contactMethod":"email","phoneNumber":"254708579885"}
+[2024-09-17 05:49:24] Database connection successful
+[2024-09-17 05:49:24] Received data: {"note":"ROCK FLUIDS.pdf","contact":"254708579885","contactMethod":"whatsapp","phoneNumber":"254708579885"}
+[2024-09-17 05:49:24] Formatted phone number: 254708579885
+[2024-09-17 05:49:24] Starting STK Push for phone: 254708579885, amount: 1
+[2024-09-17 05:49:25] Access token response status: 200
+[2024-09-17 05:49:25] Access token obtained successfully
+[2024-09-17 05:49:25] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE3MDU0OTI1","Timestamp":"20240917054925","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"254708579885","PartyB":"174379","PhoneNumber":"254708579885","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-17 05:49:26] STK Push response: {"MerchantRequestID":"f1e2-4b95-a71d-b30d3cdbb7a71721315","CheckoutRequestID":"ws_CO_17092024064941749708579885","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[2024-09-17 05:49:26] STK Push response: {"status":"success","message":"STK Push successful"}
+[2024-09-17 06:05:30] Database connection successful
+[2024-09-17 06:05:30] Received data: {"note":"Education Administration.pdf","contact":"0708579885","contactMethod":"whatsapp","phoneNumber":"254708579885"}
+[2024-09-17 06:05:30] Formatted phone number: 254708579885
+[2024-09-17 06:05:30] Starting STK Push for phone: 254708579885, amount: 1
+[2024-09-17 06:05:31] Access token response status: 200
+[2024-09-17 06:05:31] Access token obtained successfully
+[2024-09-17 06:05:31] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE3MDYwNTMx","Timestamp":"20240917060531","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"254708579885","PartyB":"174379","PhoneNumber":"254708579885","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-17 06:05:33] STK Push response: {"MerchantRequestID":"1c5b-4ba8-815c-ac45c57a3db02436816","CheckoutRequestID":"ws_CO_17092024070532812708579885","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[2024-09-17 06:05:33] STK Push response: {"status":"success","message":"STK Push successful"}
+[2024-09-17 06:06:17] Database connection successful
+[2024-09-17 06:06:17] Received data: {"note":"ROCK FLUIDS.pdf","contact":"fwambaenock@gmail.com","contactMethod":"email","phoneNumber":"254708579885"}
+[2024-09-17 06:06:17] Formatted phone number: 
+[2024-09-17 06:06:17] Starting STK Push for phone: , amount: 1
+[2024-09-17 06:06:18] Access token response status: 200
+[2024-09-17 06:06:18] Access token obtained successfully
+[2024-09-17 06:06:18] STK Push data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE3MDYwNjE4","Timestamp":"20240917060618","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"","PartyB":"174379","PhoneNumber":"","CallBackURL":"https:\/\/mydomain.com\/path","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-17 06:06:19] STK Push response: {"requestId":"3124-481d-b706-10bdd6fbc8e2273391","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid PhoneNumber"}
+[2024-09-17 06:06:19] STK Push response: {"status":"failed","message":"STK Push failed: Bad Request - Invalid PhoneNumber"}
+[2024-09-17 06:06:19] Payment failed: STK Push failed: Bad Request - Invalid PhoneNumber
+[2024-09-17 06:06:19] Received callback: {"note":"ROCK FLUIDS.pdf","contact":"fwambaenock@gmail.com","contactMethod":"email","phoneNumber":"254708579885"}
+[2024-09-17 06:14:16] Database connection successful
+[2024-09-17 06:14:16] Missing required fields in POST data
+[2024-09-17 06:14:33] Database connection successful
+[2024-09-17 06:14:33] Missing required fields in POST data
+[2024-09-17 06:14:42] Database connection successful
+[2024-09-17 06:14:42] Missing required fields in POST data
+[2024-09-17 06:15:05] Database connection successful
+[2024-09-17 06:15:05] Missing required fields in POST data
+[2024-09-17 06:18:47] Database connection successful
+[2024-09-17 06:18:47] Received data: {"note":"Research Methods.pdf","contact":"0708579885","contactMethod":"whatsapp","phoneNumber":"254708579885"}
+[2024-09-17 06:18:47] Formatted phone number: 254708579885
+[2024-09-17 06:18:47] Starting STK Push for phone: 254708579885, amount: 1
+[2024-09-17 06:18:48] Access token response status: 200
+[2024-09-17 06:18:48] Access token obtained successfully
+[2024-09-17 06:18:48] STK Push request data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE3MDYxODQ4","Timestamp":"20240917061848","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"254708579885","PartyB":"174379","PhoneNumber":"254708579885","CallBackURL":"https:\/\/yourdomain.com\/callback.php","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-17 06:18:50] STK Push response: {"MerchantRequestID":"2e49-42fe-9d40-bf4b36f202bb90641","CheckoutRequestID":"ws_CO_17092024071849244708579885","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[2024-09-17 06:18:50] STK Push response: {"status":"success","message":"STK Push successful"}
+[2024-09-17 06:19:48] Database connection successful
+[2024-09-17 06:19:48] Received data: {"note":"Oral Communication.pdf","contact":"kiketenathan@gmail.com","contactMethod":"email","phoneNumber":"254708579885"}
+[2024-09-17 06:19:48] Formatted phone number: 
+[2024-09-17 06:19:48] Starting STK Push for phone: , amount: 1
+[2024-09-17 06:19:49] Access token response status: 200
+[2024-09-17 06:19:49] Access token obtained successfully
+[2024-09-17 06:19:49] STK Push request data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE3MDYxOTQ5","Timestamp":"20240917061949","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"","PartyB":"174379","PhoneNumber":"","CallBackURL":"https:\/\/yourdomain.com\/callback.php","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-17 06:19:50] STK Push response: {"requestId":"8ed5-4489-a67f-881890b925f2274368","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid PhoneNumber"}
+[2024-09-17 06:19:50] STK Push failed: Bad Request - Invalid PhoneNumber
+[2024-09-17 06:19:50] STK Push response: {"status":"failed","message":"STK Push failed: Bad Request - Invalid PhoneNumber"}
+[2024-09-17 06:19:50] Payment failed: STK Push failed: Bad Request - Invalid PhoneNumber
+[2024-09-17 06:30:52] Database connection successful
+[2024-09-17 06:30:52] Received data: {"note":"Oral Communication.pdf","contact":"kiketenathan@gmail.com","contactMethod":"email","phoneNumber":"254708579885"}
+[2024-09-17 06:30:52] Formatted phone number: 
+[2024-09-17 06:30:52] Starting STK Push for phone: , amount: 1
+[2024-09-17 06:30:53] Access token response status: 200
+[2024-09-17 06:30:53] Access token obtained successfully
+[2024-09-17 06:30:53] STK Push request data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE3MDYzMDUz","Timestamp":"20240917063053","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"","PartyB":"174379","PhoneNumber":"","CallBackURL":"https:\/\/yourdomain.com\/callback.php","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-17 06:30:54] STK Push response: {"requestId":"1c5b-4ba8-815c-ac45c57a3db02437282","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid PhoneNumber"}
+[2024-09-17 06:30:54] STK Push failed: Bad Request - Invalid PhoneNumber
+[2024-09-17 06:30:54] STK Push response: {"status":"failed","message":"STK Push failed: Bad Request - Invalid PhoneNumber"}
+[2024-09-17 06:30:54] Payment failed: STK Push failed: Bad Request - Invalid PhoneNumber
+[2024-09-17 06:31:04] Database connection successful
+[2024-09-17 06:31:04] Received data: {"note":"Oral Communication.pdf","contact":"0708579885","contactMethod":"whatsapp","phoneNumber":"254708579885"}
+[2024-09-17 06:31:04] Formatted phone number: 254708579885
+[2024-09-17 06:31:04] Starting STK Push for phone: 254708579885, amount: 1
+[2024-09-17 06:31:05] Access token response status: 200
+[2024-09-17 06:31:05] Access token obtained successfully
+[2024-09-17 06:31:05] STK Push request data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE3MDYzMTA1","Timestamp":"20240917063105","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"254708579885","PartyB":"174379","PhoneNumber":"254708579885","CallBackURL":"https:\/\/yourdomain.com\/callback.php","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-17 06:31:06] STK Push response: {"MerchantRequestID":"3124-481d-b706-10bdd6fbc8e2273642","CheckoutRequestID":"ws_CO_17092024073121461708579885","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[2024-09-17 06:31:06] STK Push response: {"status":"success","message":"STK Push successful"}
+[2024-09-17 12:52:49] Database connection successful
+[2024-09-17 12:52:49] Received data: {"note":"Oral Communication.pdf","contact":"0708579885","contactMethod":"whatsapp","phoneNumber":"254708579885"}
+[2024-09-17 12:52:49] Formatted phone number: 254708579885
+[2024-09-17 12:52:49] Starting STK Push for phone: 254708579885, amount: 1
+[2024-09-17 12:52:49] cURL error in getting access token: Could not resolve host: sandbox.safaricom.co.ke
+[2024-09-17 12:52:49] STK Push response: {"status":"failed","message":"Network error"}
+[2024-09-17 12:52:49] Payment failed: Network error
+[2024-09-17 12:53:11] Database connection successful
+[2024-09-17 12:53:11] Received data: {"note":"Oral Communication.pdf","contact":"0708579885","contactMethod":"whatsapp","phoneNumber":"254708579885"}
+[2024-09-17 12:53:11] Formatted phone number: 254708579885
+[2024-09-17 12:53:11] Starting STK Push for phone: 254708579885, amount: 1
+[2024-09-17 12:53:11] cURL error in getting access token: Could not resolve host: sandbox.safaricom.co.ke
+[2024-09-17 12:53:11] STK Push response: {"status":"failed","message":"Network error"}
+[2024-09-17 12:53:11] Payment failed: Network error
+[2024-09-17 12:53:14] Database connection successful
+[2024-09-17 12:53:14] Received data: {"note":"Oral Communication.pdf","contact":"0708579885","contactMethod":"whatsapp","phoneNumber":"254708579885"}
+[2024-09-17 12:53:14] Formatted phone number: 254708579885
+[2024-09-17 12:53:14] Starting STK Push for phone: 254708579885, amount: 1
+[2024-09-17 12:53:14] cURL error in getting access token: Could not resolve host: sandbox.safaricom.co.ke
+[2024-09-17 12:53:14] STK Push response: {"status":"failed","message":"Network error"}
+[2024-09-17 12:53:14] Payment failed: Network error
+[2024-09-17 12:53:25] Database connection successful
+[2024-09-17 12:53:25] Received data: {"note":"Guidance and Counselling.pdf","contact":"0708579885","contactMethod":"whatsapp","phoneNumber":"254708579885"}
+[2024-09-17 12:53:25] Formatted phone number: 254708579885
+[2024-09-17 12:53:25] Starting STK Push for phone: 254708579885, amount: 1
+[2024-09-17 12:53:25] cURL error in getting access token: Could not resolve host: sandbox.safaricom.co.ke
+[2024-09-17 12:53:25] STK Push response: {"status":"failed","message":"Network error"}
+[2024-09-17 12:53:25] Payment failed: Network error
+[2024-09-17 13:05:26] Database connection successful
+[2024-09-17 13:05:26] Received data: {"note":"Guidance and Counselling.pdf","contact":"0708579885","contactMethod":"whatsapp","phoneNumber":"254708579885"}
+[2024-09-17 13:05:26] Formatted phone number: 254708579885
+[2024-09-17 13:05:26] Starting STK Push for phone: 254708579885, amount: 1
+[2024-09-17 13:05:28] Access token response status: 200
+[2024-09-17 13:05:28] Access token obtained successfully
+[2024-09-17 13:05:28] STK Push request data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE3MTMwNTI4","Timestamp":"20240917130528","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"254708579885","PartyB":"174379","PhoneNumber":"254708579885","CallBackURL":"https:\/\/yourdomain.com\/callback.php","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-17 13:05:29] STK Push response: {"MerchantRequestID":"8ed5-4489-a67f-881890b925f2278979","CheckoutRequestID":"ws_CO_17092024140528097708579885","ResponseCode":"0","ResponseDescription":"Success. Request accepted for processing","CustomerMessage":"Success. Request accepted for processing"}
+[2024-09-17 13:05:29] STK Push response: {"status":"success","message":"STK Push successful"}
+[2024-09-17 13:05:55] Database connection successful
+[2024-09-17 13:05:55] Received data: {"note":"Guidance and Counselling.pdf","contact":"kiketenathan@gmail.com","contactMethod":"email","phoneNumber":"254708579885"}
+[2024-09-17 13:05:55] Formatted phone number: 
+[2024-09-17 13:05:55] Starting STK Push for phone: , amount: 1
+[2024-09-17 13:05:56] Access token response status: 200
+[2024-09-17 13:05:56] Access token obtained successfully
+[2024-09-17 13:05:56] STK Push request data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE3MTMwNTU2","Timestamp":"20240917130556","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"","PartyB":"174379","PhoneNumber":"","CallBackURL":"https:\/\/yourdomain.com\/callback.php","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-17 13:05:57] STK Push response: {"requestId":"1c5b-4ba8-815c-ac45c57a3db02444017","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid PhoneNumber"}
+[2024-09-17 13:05:57] STK Push failed: Bad Request - Invalid PhoneNumber
+[2024-09-17 13:05:57] STK Push response: {"status":"failed","message":"STK Push failed: Bad Request - Invalid PhoneNumber"}
+[2024-09-17 13:05:57] Payment failed: STK Push failed: Bad Request - Invalid PhoneNumber
+[2024-09-17 13:15:58] Database connection successful
+[2024-09-17 13:15:58] Received data: {"note":"Guidance and Counselling.pdf","contact":"kiketenathan@gmail.com","contactMethod":"email","phoneNumber":"254708579885"}
+[2024-09-17 13:15:58] Formatted phone number: 
+[2024-09-17 13:15:58] Starting STK Push for phone: , amount: 1
+[2024-09-17 13:15:59] Access token response status: 200
+[2024-09-17 13:15:59] Access token obtained successfully
+[2024-09-17 13:15:59] STK Push request data: {"BusinessShortCode":"174379","Password":"MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQwOTE3MTMxNTU5","Timestamp":"20240917131559","TransactionType":"CustomerPayBillOnline","Amount":1,"PartyA":"","PartyB":"174379","PhoneNumber":"","CallBackURL":"https:\/\/yourdomain.com\/callback.php","AccountReference":"TvetPrime","TransactionDesc":"Payment for Notes"}
+[2024-09-17 13:16:00] STK Push response: {"requestId":"8ed5-4489-a67f-881890b925f2279096","errorCode":"400.002.02","errorMessage":"Bad Request - Invalid PhoneNumber"}
+[2024-09-17 13:16:00] STK Push failed: Bad Request - Invalid PhoneNumber
+[2024-09-17 13:16:00] STK Push response: {"status":"failed","message":"STK Push failed: Bad Request - Invalid PhoneNumber"}
+[2024-09-17 13:16:00] Payment failed: STK Push failed: Bad Request - Invalid PhoneNumber
+[2024-09-17 13:23:45] Database connection successful
+[2024-09-17 13:23:45] Received data: {"note":"ROCK FLUIDS.pdf","contact":"kiketenathan@gmail.com","contactMethod":"email","phoneNumber":"254708579885"}
+[2024-09-17 13:23:45] Formatted phone number: 
+[2024-09-17 13:23:45] STK Push response for email: null
+[2024-09-17 13:23:45] STK Push failed for email: 
+[2024-09-17 13:23:56] Database connection successful
+[2024-09-17 13:23:56] Received data: {"note":"ROCK FLUIDS.pdf","contact":"kiketenathan@gmail.com","contactMethod":"email","phoneNumber":"254708579885"}
+[2024-09-17 13:23:56] Formatted phone number: 
+[2024-09-17 13:23:56] STK Push response for email: null
+[2024-09-17 13:23:56] STK Push failed for email: 
+[2024-09-17 13:23:58] Database connection successful
+[2024-09-17 13:23:58] Received data: {"note":"ROCK FLUIDS.pdf","contact":"kiketenathan@gmail.com","contactMethod":"email","phoneNumber":"254708579885"}
+[2024-09-17 13:23:58] Formatted phone number: 
+[2024-09-17 13:23:58] STK Push response for email: null
+[2024-09-17 13:23:58] STK Push failed for email: 
+[2024-09-17 13:24:13] Database connection successful
+[2024-09-17 13:24:13] Received data: {"note":"Education Administration.pdf","contact":"kiketenathan@gmail.com","contactMethod":"email","phoneNumber":"254708579885"}
+[2024-09-17 13:24:13] Formatted phone number: 
+[2024-09-17 13:24:13] STK Push response for email: null
+[2024-09-17 13:24:13] STK Push failed for email: 
+[2024-09-17 13:24:31] Database connection successful
+[2024-09-17 13:24:31] Received data: {"note":"Education Administration.pdf","contact":"0708579885","contactMethod":"whatsapp","phoneNumber":"254708579885"}
+[2024-09-17 13:24:31] Formatted phone number: 254708579885
+[2024-09-17 13:24:31] STK Push response for whatsapp: null
+[2024-09-17 13:24:31] STK Push failed for whatsapp: 
+[2024-09-17 13:24:41] Database connection successful
+[2024-09-17 13:24:41] Received data: {"note":"Education Administration.pdf","contact":"0708579885","contactMethod":"whatsapp","phoneNumber":"254708579885"}
+[2024-09-17 13:24:41] Formatted phone number: 254708579885
+[2024-09-17 13:24:41] STK Push response for whatsapp: null
+[2024-09-17 13:24:41] STK Push failed for whatsapp: 
+[2024-09-17 13:33:05] Database connection successful
+[2024-09-17 13:33:05] Missing required fields in POST data
+[2024-09-17 13:33:18] Database connection successful
+[2024-09-17 13:33:18] Missing required fields in POST data
+[2024-09-17 13:33:49] Database connection successful
+[2024-09-17 13:33:49] Missing required fields in POST data
+[2024-09-17 13:35:09] Database connection successful
+[2024-09-17 13:35:09] Missing required fields in POST data
+[2024-09-17 13:39:37] Database connection successful
+[2024-09-17 13:39:37] Missing required fields in POST data
+[2024-09-17 13:39:45] Database connection successful
+[2024-09-17 13:39:45] Missing required fields in POST data
+[2024-09-17 13:40:52] Database connection successful
+[2024-09-17 13:40:52] Missing required fields in POST data
+[2024-09-17 13:40:58] Database connection successful
+[2024-09-17 13:40:58] Missing required fields in POST data
+[2024-09-17 13:41:12] Database connection successful
+[2024-09-17 13:41:12] Missing required fields in POST data
+[2024-09-17 13:42:45] Database connection successful
+[2024-09-17 13:42:45] Missing required fields in POST data
+[2024-09-17 13:43:11] Database connection successful
+[2024-09-17 13:43:11] Missing required fields in POST data
+[2024-09-17 13:43:26] Database connection successful
+[2024-09-17 13:43:26] Missing required fields in POST data
+[2024-09-17 13:50:22] Database connection successful
+[2024-09-17 13:50:22] Missing required fields in POST data
+[2024-09-17 14:05:57] Database connection successful
+[2024-09-17 14:05:57] Missing required fields in POST data
+[2024-09-17 14:15:02] Database connection successful
+[2024-09-17 14:15:02] Missing required fields in POST data
+[2024-09-17 14:15:09] Database connection successful
+[2024-09-17 14:15:09] Missing required fields in POST data
+[2024-09-17 14:15:23] Database connection successful
+[2024-09-17 14:15:23] Missing required fields in POST data
+[2024-09-17 14:28:00] Database connection successful
+[2024-09-17 14:28:00] Missing required fields in POST data
+[2024-09-17 14:28:26] Database connection successful
+[2024-09-17 14:28:26] Missing required fields in POST data
+[2024-09-17 14:31:21] Database connection successful
+[2024-09-17 14:31:21] Missing required fields in POST data
+[2024-09-17 14:31:34] Database connection successful
+[2024-09-17 14:31:34] Missing required fields in POST data
+[2024-09-17 14:31:58] Database connection successful
+[2024-09-17 14:31:58] Missing required fields in POST data
+[2024-09-17 14:31:58] Database connection successful
+[2024-09-17 14:31:58] Missing required fields in POST data
+[2024-09-17 14:32:02] Database connection successful
+[2024-09-17 14:32:02] Missing required fields in POST data
+[2024-09-17 14:32:38] Database connection successful
+[2024-09-17 14:32:38] Missing required fields in POST data
+[2024-09-17 16:04:23] Database connection successful
+[2024-09-17 16:04:23] Missing required fields in POST data
+[2024-09-17 16:10:24] Database connection successful
+[2024-09-17 16:10:24] Missing required fields in POST data
+[2024-09-17 16:14:17] Database connection successful
+[2024-09-17 16:14:17] Missing required fields in POST data
+[2024-09-17 16:14:18] Database connection successful
+[2024-09-17 16:14:18] Missing required fields in POST data
+[2024-09-17 16:14:19] Database connection successful
+[2024-09-17 16:14:19] Missing required fields in POST data
+[2024-09-17 16:14:19] Database connection successful
+[2024-09-17 16:14:19] Missing required fields in POST data
+[2024-09-17 16:14:19] Database connection successful
+[2024-09-17 16:14:19] Missing required fields in POST data
+[2024-09-17 16:14:19] Database connection successful
+[2024-09-17 16:14:19] Missing required fields in POST data
+[2024-09-17 16:14:19] Database connection successful
+[2024-09-17 16:14:19] Missing required fields in POST data
+[2024-09-17 16:14:20] Database connection successful
+[2024-09-17 16:14:20] Missing required fields in POST data
+[2024-09-17 16:14:21] Database connection successful
+[2024-09-17 16:14:21] Missing required fields in POST data
+[2024-09-17 16:14:22] Database connection successful
+[2024-09-17 16:14:22] Missing required fields in POST data
+[2024-09-17 16:16:52] Database connection successful
+[2024-09-17 16:16:52] Missing required fields in POST data
+[2024-09-17 16:16:53] Database connection successful
+[2024-09-17 16:16:53] Missing required fields in POST data
+[2024-09-17 16:16:53] Database connection successful
+[2024-09-17 16:16:53] Missing required fields in POST data
+[2024-09-17 16:16:59] Database connection successful
+[2024-09-17 16:16:59] Missing required fields in POST data
+[2024-09-17 16:17:00] Database connection successful
+[2024-09-17 16:17:00] Missing required fields in POST data
+[2024-09-17 16:17:00] Database connection successful
+[2024-09-17 16:17:00] Missing required fields in POST data
+[2024-09-17 16:17:00] Database connection successful
+[2024-09-17 16:17:00] Missing required fields in POST data
+[2024-09-17 16:17:00] Database connection successful
+[2024-09-17 16:17:00] Missing required fields in POST data
+[2024-09-17 16:17:05] Database connection successful
+[2024-09-17 16:17:05] Missing required fields in POST data
+[2024-09-17 16:17:06] Database connection successful
+[2024-09-17 16:17:06] Missing required fields in POST data
+[2024-09-17 16:17:06] Database connection successful
+[2024-09-17 16:17:06] Missing required fields in POST data
+[2024-09-17 16:17:07] Database connection successful
+[2024-09-17 16:17:07] Missing required fields in POST data
+[2024-09-17 16:17:07] Database connection successful
+[2024-09-17 16:17:07] Missing required fields in POST data
+[2024-09-17 16:20:45] Database connection successful
+[2024-09-17 16:20:45] Missing required fields in POST data
+[2024-09-17 16:20:46] Database connection successful
+[2024-09-17 16:20:46] Missing required fields in POST data
+[2024-09-17 16:20:46] Database connection successful
+[2024-09-17 16:20:46] Missing required fields in POST data
+[2024-09-17 16:20:46] Database connection successful
+[2024-09-17 16:20:46] Missing required fields in POST data
+[2024-09-17 16:20:46] Database connection successful
+[2024-09-17 16:20:46] Missing required fields in POST data
+[2024-09-17 16:20:47] Database connection successful
+[2024-09-17 16:20:47] Missing required fields in POST data
+[2024-09-17 16:20:47] Database connection successful
+[2024-09-17 16:20:47] Missing required fields in POST data
+[2024-09-17 16:20:47] Database connection successful
+[2024-09-17 16:20:47] Missing required fields in POST data
+[2024-09-17 16:20:47] Database connection successful
+[2024-09-17 16:20:47] Missing required fields in POST data
+[2024-09-17 16:20:47] Database connection successful
+[2024-09-17 16:20:47] Missing required fields in POST data
+[2024-09-17 16:20:48] Database connection successful
+[2024-09-17 16:20:48] Missing required fields in POST data
+[2024-09-17 16:21:05] Database connection successful
+[2024-09-17 16:21:05] Missing required fields in POST data
+[2024-09-17 16:23:31] Database connection successful
+[2024-09-17 16:23:31] Missing required fields in POST data
+[2024-09-17 16:28:00] Database connection successful
+[2024-09-17 16:28:00] Missing required fields in POST data
+[2024-09-17 16:33:48] Database connection successful
+[2024-09-17 16:33:48] Missing required fields in POST data
+[2024-09-17 16:34:15] Database connection successful
+[2024-09-17 16:34:15] Missing required fields in POST data
+[2024-09-17 16:56:13] Database connection successful
+[2024-09-17 16:56:13] Missing required fields in POST data
+[2024-09-17 16:56:14] Database connection successful
+[2024-09-17 16:56:14] Missing required fields in POST data
+[2024-09-17 16:56:15] Database connection successful
+[2024-09-17 16:56:15] Missing required fields in POST data
+[2024-09-17 16:56:15] Database connection successful
+[2024-09-17 16:56:15] Missing required fields in POST data
+[2024-09-18 08:59:22] Database connection successful
+[2024-09-18 08:59:22] Missing required fields in POST data
+[2024-09-18 08:59:42] Database connection successful
+[2024-09-18 08:59:42] Missing required fields in POST data
